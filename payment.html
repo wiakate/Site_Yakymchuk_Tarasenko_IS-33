@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Payment</title>
+</head>
+<body>
+<div class="payment-container">
+    <h1>Введіть свої дані</h1>
+    <div class="payment-box">
+        <div class="input-label">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@gmail.com">
+        </div>
+        <div class="input-label card-number">
+            <label for="card-number">Card information</label>
+            <input type="text" id="card-number" placeholder="1111 2222 3333 4444">
+            <img src="assets/mastercard.png" alt="mastercard" width="24">
+        </div>
+        <div class="card-details">
+            <input type="text" placeholder="03/34">
+            <input type="text" placeholder="CVC">
+        </div>
+        <div class="input-label">
+            <label for="name">Name on card</label>
+            <input id="name" type="text" placeholder="Name">
+        </div>
+        <div class="input-label">
+            <label for="country">Country or region</label>
+            <select name="country" id="country">
+                <option value="ukraine">Ukraine</option>
+                <option value="usa">USA</option>
+                <option value="germany">Germany</option>
+                <option value="france">France</option>
+            </select>
+        </div>
+        <div class="make-payment-btn">
+            <a href="payment-success.html">Pay 2699$</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Catalog</title>
+</head>
+<body>
+<header class="header">
+    <div class="logo-container">
+        <a class="logo" href="index.html"><img src="assets/logo.svg" alt="Sweet Fantasy logo" width="288"
+                                               height="68"></a>
+    </div>
+    <nav class="nav">
+        <a class="nav-link" href="index.html">Дім</a>
+        <a class="nav-link" href="#">Каталог</a>
+        <a class="nav-link" href="about.html">Наша компанія</a>
+    </nav>
+    <div class="social-icons">
+        <a href="#"><img src="assets/icons8-instagram-100.png" alt="Instagram"></a>
+        <a href="#"><img src="assets/icons8-tiktok-100.png" alt="TikTok"></a>
+    </div>
+    <div class="header-order-button-container">
+        <div class="button-container">
+            <a href="cart.html" class="button">Замовити</a>
+        </div>
+    </div>
+    <div class="cart-icon-container">
+        <a href="cart.html">
+            <img src="assets/cart.png" alt="Cart">
+            <div id="cart-count" style="display: flex">0</div>
+        </a>
+    </div>
+    <div class="burger-menu">
+        <div class="burger-menu-line"></div>
+        <div class="burger-menu-line"></div>
+        <div class="burger-menu-line"></div>
+    </div>
+</header>
+<section class="section header-section">
+    <h1>Каталог</h1>
+    <p>Дім &#8594; Каталог</p>
+    <div class="image-container left"><img src="assets/capcake-header1.png" alt="capcake"></div>
+    <div class="image-container right"><img src="assets/capcake-header2.png" alt="capcake"></div>
+</section>
+<div class="container">
+    <section class="section catalog-section">
+        <h1>Наші солодощі</h1>
+        <div class="catalog-items">
+            <div class="catalog-item">
+                <img src="assets/cake-1%203.png" alt="cake">
+                <h3>Ягідна насолода</h3>
+                <div class="description">
+                    ніжний вершковий торт із шаром полуниці та малини.
+                </div>
+                <p class="price"> 2099 &#x20B4;</p>
+                <div class="counter">
+                    <div class="counter-button">-</div>
+                    <input type="number" value="0">
+                    <div class="counter-button">+</div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <img src="assets/medovik.png" alt="cake">
+                <h3>Медовик</h3>
+                <div class="description">
+                    медовий торт із карамельним кремом та хрустким горіхом
+                </div>
+                <p class="price">1599 &#x20B4;</p>
+                <div class="counter">
+                    <div class="counter-button">-</div>
+                    <input type="number" value="0">
+                    <div class="counter-button">+</div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <img src="assets/snikers.png" alt="cake">
+                <h3>Снікерс</h3>
+                <div class="description">
+                    шоколадний бісквіт із карамеллю, горіхами.
+                </div>
+                <p class="price">3200 &#x20B4;</p>
+                <div class="counter">
+                    <div class="counter-button">-</div>
+                    <input type="number" value="0">
+                    <div class="counter-button">+</div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <img src="assets/cupcakes_1.png" alt="cake">
+                <h3>Вишневий кекс</h3>
+                <div class="description">
+                    ніжний кекс із соковитими вишнями та ароматом ванілі.
+                </div>
+                <p class="price">200 &#x20B4;</p>
+                <div class="counter">
+                    <div class="counter-button">-</div>
+                    <input type="number" value="0">
+                    <div class="counter-button">+</div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <img src="assets/oreo-cupcake_1.png" alt="cake">
+                <h3>Кекс орео</h3>
+                <div class="description">
+                    кекс із шматочками печива Oreo та вершковим кремом.
+                </div>
+                <p class="price">300 &#x20B4;</p>
+                <div class="counter">
+                    <div class="counter-button">-</div>
+                    <input type="number" value="0">
+                    <div class="counter-button">+</div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <img src="assets/macaroon-cupcake_1.png" alt="cake">
+                <h3>Кекс макарун</h3>
+                <div class="description">
+                    шоколадний бісквіт із карамеллю, горіхами.
+                </div>
+                <p class="price">150 &#x20B4;</p>
+                <div class="counter">
+                    <div class="counter-button">-</div>
+                    <input type="number" value="0">
+                    <div class="counter-button">+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section leave-number-section">
+        <div class="form-container">
+            <h3>Залиште свій номер для індивідуального замовлення</h3>
+            <div class="form">
+                <input class="phone-number" type="text" placeholder="+380688888888">
+                <div class="button-container">
+                    <a href="#" class="button">Відправити</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews-section section">
+        <div class="slider-container swiper">
+            <div class="slider-wrapper">
+                <div class="card-list swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar1.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 4.5</span>
+                        <div class="review-text">
+                            Ідеальна насолода! Ніжний шоколадний смак, хрустке печиво та легкий крем. Справжнє
+                            задоволення
+                            для фанатів Oreo!
+                        </div>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar2.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 5.0</span>
+                        <div class="review-text">
+                            Спробував Медовик і був у захваті! Коржі ніжні й ароматні, а крем просто тане в роті. Це
+                            один із
+                            найкращих тортів, які я куштував.
+                        </div>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar3.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 4.4</span>
+                        <div class="review-text">
+                            Торт Снікерс — це щось особливе! Шоколад, карамель і горіхи ідеально поєднуються. Справжня
+                            насолода для гурманів!
+                        </div>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar4.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 4.2</span>
+                        <div class="review-text">
+                            Чізкейк Нью-Йорк — Ідеальна текстура та легка кислинка! Один із найкращих чізкейків, що я
+                            куштував. Просто тане в роті!
+                        </div>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar5.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 4.0</span>
+                        <div class="review-text">
+                            Тірамісу — Неймовірно ніжний і повітряний десерт! Класичний смак кави й маскарпоне, який
+                            просто
+                            неможливо забути!
+                        </div>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar6.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 5.0</span>
+                        <div class="review-text">
+                            Лісова Ягода — Торт із приємною кислинкою і насиченим ягідним смаком.
+                        </div>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar7.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 4.5</span>
+                        <div class="review-text">
+                            Морквяний — Соковитий, пряний, з ніжним кремом! Неочікувано смачно для морквяного торта.
+                        </div>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar8.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 5.0</span>
+                        <div class="review-text">
+                            Шоколадний трюфель — Рай для шоколадних гурманів! Інтенсивний, густий шоколадний смак.
+                        </div>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assets/avatar9.png" alt="avatar" class="user-image">
+                        <span class="review-grade">&starf; 4.4</span>
+                        <div class="review-text">
+                            Наполеон — Легкий, хрусткий і водночас кремовий! Класика, яку хочеться їсти знову й знову.
+                            Ідеально збалансований десерт!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+</div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <div class="logo-container">
+                <a class="logo" href="/"><img src="assets/logo.svg" alt="Sweet Fantasy logo" width="288"
+                                              height="68"></a>
+            </div>
+            <div>Замовте свій торт мрії та переконайтеся, що солодощі можуть бути витвором мистецтва!</div>
+        </div>
+        <div class="footer-column menu">
+            <h2>Меню</h2>
+            <nav class="nav">
+                <a class="nav-link" href="index.html">Дім</a>
+                <a class="nav-link" href="#">Каталог</a>
+                <a class="nav-link" href="about.html">Наша компанія</a>
+            </nav>
+        </div>
+        <div class="footer-column">
+            <h2>Зв'язок</h2>
+            <p>+380 99 999 99 99</p>
+            <p>sweetfantasy@gmail.com</p>
+            <a href="#" class="button">Замовити</a>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="scripts/catalog_swiper.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
